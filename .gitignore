@@ -9,3 +9,11 @@
 *.swp
 *.swo
 *~
+
+# Build
+dist
+yee.zip
+
+# Node
+node_modules
+pnpm-lock.yaml

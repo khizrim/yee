@@ -1,0 +1,13 @@
+{
+  "name": "yee-og-generator",
+  "version": "1.0.0",
+  "description": "Chrome extension for OG Generator shortcut in Persephone",
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && cp -r manifest.json background.js content.js icons dist",
+    "zip": "npm run build && cd dist && zip -r ../yee.zip ."
+  },
+  "keywords": [],
+  "author": "khizrim",
+  "license": "ISC",
+  "packageManager": "pnpm@10.23.0"
+}
